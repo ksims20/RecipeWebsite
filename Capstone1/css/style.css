@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+
+}
+.TopMenu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 50px;
+    padding-bottom: 2px;
+    background: #fff;
+
+}
+
+span{
+  font-size: 16px; 
+  font-weight: 1000;
+  padding: 6px 515px 0px 6px;
+  align-items: left;
+  justify-content: left;
+}
+
+
+.TopMenu li{
+    list-style: none;
+    align-items: right;
+    justify-content: right;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+a{
+    color:black;
+}
+
+.Choose{
+    text-align: center; 
+    font-weight: lighter;
+    margin-bottom: 25px; 
+    margin-right: 100px; 
+}
+
+img{
+    border-radius: 2%;
+}
+
+.Icons{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.One{
+    margin-right: 15px;
+    
+}
+.Two{
+    margin-right: 15px;
+}
+
+.Three{
+    margin-right: 15px;
+}
+.Four{
+    margin-right: 15px;
+}
+
+.Desc{
+    list-style: none;
+    padding-top:7px;
+    font-size:14px;
+}
+
+.Space1{
+    padding-left: 100px;
+}
+
+.Space2{
+    padding-left: 253px;
+}
+
+.Space3{
+    padding-left: 276px;
+}
+
+.Space4{
+    padding-left: 276px;
+}
+
+.color img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 2s ease;
+    }
+    
+.color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 2.5s ease;
+}
+
+
+
+
