@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Register </title>
+    <link rel="stylesheet" href="css/register.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    
+</head>
+<body>
+
+    <div class="TopMenu">
+        <a href="About.html" class="about">About</a>
+
+      <h1 id ="header"> <b>Cookly</b> </h1>
+      
+      <li class="A"><a class="house" href="index.html"> <ion-icon name="home-outline"></ion-icon> </a></li>
+      <li class="B"><a class="Person" href="login.html"> <ion-icon name="person-outline"></ion-icon> </a></li>
+
+ 
+        </div>
+
+<main>
+    <div class="divider">
+        <div class="left-side">
+            
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+               
+        
+        </div>
+        <div class="right-side">
+            <div class="wrapper">
+                <form class="box" action="">
+                    <h1> Register </h1>
+                    <div class="input-box">
+                        <h3>First Name</h3>
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="input-box">
+                        <h3>Last Name</h3>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="input-box">
+                        <h3>Email</h3>
+                        <input type="text" placeholder="Email" required> 
+                    </div>
+                    <!-- Password validation, I got this come from User Francisco Costa on stackoverflow. https://stackoverflow.com/questions/9142527/can-you-require-two-form-fields-to-match-with-html  -->
+                    <div class="input-box">
+                        <h3>Password</h3>
+                        <input type="password" id="password" name="password" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must have at least 6 characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" placeholder="Password" required>
+                    </div>
+                    <div class="input-box">
+                        <h3>Confirm Password</h3>
+                        <input type="password" id="password_two" type="password" pattern="^\S{6,}$" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same Password as above' : '');" placeholder="Confirm Password" required>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-link">
+                        <a href="login.html">Login</a>
+                    </div>
+                </form>
+            </div>
+
+            </div>
+
+    </div>
+</main>
+    
+
+
+    </body>
+</html>
